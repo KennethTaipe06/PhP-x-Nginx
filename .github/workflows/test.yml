@@ -1,4 +1,4 @@
-name: Main Deploy pull request
+name: test Deploy pull request
 
 on:
   push:
