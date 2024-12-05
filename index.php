@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>push a test</title>
+    <title>Hola Mundo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hola Mundo!</h1>
+        <h1>Push a test!</h1>
         <p>El nombre del host es: <?php echo gethostname(); ?></p>
     </div>
 </body>
