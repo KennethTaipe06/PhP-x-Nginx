@@ -1,9 +1,9 @@
 name: Main Deploy pull request
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - test
 
 jobs:
   update_docker_image:
@@ -38,10 +38,8 @@ jobs:
     strategy:
       matrix:
         ec2_instance: 
-          - ec2-54-145-233-81.compute-1.amazonaws.com
-          - ec2-54-234-142-224.compute-1.amazonaws.com
-          - ec2-34-201-60-157.compute-1.amazonaws.com
-          - ec2-54-159-126-253.compute-1.amazonaws.com
+          - ec2-54-205-181-187.compute-1.amazonaws.com
+          - ec2-18-207-225-177.compute-1.amazonaws.com
 
     steps:
       - name: Set up SSH key
