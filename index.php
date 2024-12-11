@@ -28,7 +28,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Pull Request a Test!</h1>
+        <h1>Testeando Test!</h1>
         <p>El nombre del host es: <?php echo gethostname(); ?></p>
     </div>
 </body>
