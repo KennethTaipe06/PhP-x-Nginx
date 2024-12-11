@@ -1,7 +1,7 @@
 name: test Deploy pull request
 
 on:
-  push:
+  pull_request:
     branches:
       - test
 
@@ -38,8 +38,8 @@ jobs:
     strategy:
       matrix:
         ec2_instance: 
-          - ec2-54-205-181-187.compute-1.amazonaws.com
-          - ec2-18-207-225-177.compute-1.amazonaws.com
+          - ec2-204-236-220-83.compute-1.amazonaws.com
+          - ec2-54-90-221-171.compute-1.amazonaws.com
 
     steps:
       - name: Set up SSH key
