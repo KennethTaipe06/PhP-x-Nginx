@@ -28,7 +28,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Testeando Test!</h1>
+        <h1>autoscaling Test!</h1>
         <p>El nombre del host es: <?php echo gethostname(); ?></p>
     </div>
 </body>
