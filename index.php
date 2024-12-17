@@ -28,7 +28,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>cambiando 4 Test!</h1>
+        <h1>cambiando 5 Test!</h1>
         <p>El nombre del host es: <?php echo gethostname(); ?></p>
     </div>
 </body>
