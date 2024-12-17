@@ -1,7 +1,7 @@
 name: Main Deploy pull request
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
